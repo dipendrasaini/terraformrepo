@@ -45,6 +45,6 @@ resource "aws_instance" "Tfinstane" {
 
 resource "aws_key_pair" "deployer" {
   key_name   = "Terraform-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCz0OHDKW7Wcr1HC4hbYzojpeJvZdEcyYcUMrEHnl0cqzNrb6TTBiCuQDctuxQ9CktBWalPBD3Yev0eN5wDqhVFr+LCw7yQqbeT99IPdkxw6oCofZZ8WWmWWKHsyAEh3i85G/FHnTSwhw/UFcXaCjobhyWw2xM0++Eu39+mFEmlxaIHx+o0mH1Zb4Idl8mddDSuV9QsrMlNIiFTQahKB3W9195hzQmlifxBVfKF/q6ST2nEBCGHmv8W9xEpS6+u2PRLwzCfhEoSTlhroubetxH1nyXymrE2iVYVsU48qTdnv1HV2s0vV7UCzXL0hsq/14ucwt3q28PALrxEEwS79k+YOMhVtoKXwqa+r13qjzli77O+G4fJL5jOVP2xfjoSyxKKEkMSKRhMl9KO9KS8y+m+/VkRj/ALx/xOw5PtUr4O8VG4VF0crAT8HlJn0YP85PMIJbMedGjTpQq6ECl1MxC7ybWyqsL9kuVmrKVKUzje/7qwgKIt6KHowX8RO7LEiMM= root@host"
+  public_key = ""
 }
 
